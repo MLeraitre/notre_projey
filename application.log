@@ -86,3 +86,127 @@
 2021-07-01 12:19:38,144 - application.database_handler - DEBUG - Reading SQL file.
 2021-07-01 12:19:38,145 - application.database_handler - DEBUG - Executing sql script.
 2021-07-01 12:19:38,328 - application.database_handler - DEBUG - Sample data inserted.
+2021-07-01 18:54:56,593 - application - INFO - Application started.
+2021-07-01 18:54:56,594 - application.database_handler - INFO - Initializing database.
+2021-07-01 18:54:56,594 - application.database_handler - DEBUG - Reading SQL file.
+2021-07-01 18:54:56,594 - application.database_handler - DEBUG - Executing sql script.
+2021-07-01 18:54:56,595 - application.database_handler - ERROR - Failed to execute SQL script. Script :
+
+CREATE TABLE people (
+    id INT PRIMARY KEY AUTOINCREMENT,
+    first_name TEXT,
+    last_name TEXT,
+    birthday TEXT,
+    sex TEXT,
+    mass REAL
+);
+
+CREATE TABLE beverage (
+    id INT PRIMARY KEY AUTOINCREMENT,
+    beverage_name TEXT,
+    alcohol_proportion REAL,
+    beverage_type TEXT
+);
+
+CREATE TABLE drink (
+        id INT PRIMARY KEY AUTOINCREMENT,
+        id_people INT REFERENCES people (id),
+        id_beverage INT REFERENCES beverage (id),
+        drink_date TEXT,
+        place TEXT,
+        volume REAL
+);
+
+2021-07-01 18:54:56,598 - application.database_handler - DEBUG - Empty database created.
+2021-07-01 18:54:56,598 - application.database_handler - DEBUG - Reading SQL file.
+2021-07-01 18:54:56,598 - application.database_handler - DEBUG - Executing sql script.
+2021-07-01 18:54:56,599 - application.database_handler - ERROR - Failed to execute SQL script. Script :
+
+INSERT INTO people (first_name, last_name, birthday, sex, mass) VALUES ('Pierre', '', '2000-04-01', 'male', 70);
+INSERT INTO people (first_name, last_name, birthday, sex, mass) VALUES ('Marie', '', '2000-08-01', 'female', 50);
+INSERT INTO people (first_name, last_name, birthday, sex, mass) VALUES ('Alex', '', '2000-12-01', 'male', 65);
+
+INSERT INTO beverage (beverage_name, alcohol_proportion, beverage_type) VALUES ('Goudale', 0.07, 'beer');
+INSERT INTO beverage (beverage_name, alcohol_proportion, beverage_type) VALUES ('Poliakov', 0.4, 'vodka');
+INSERT INTO beverage (beverage_name, alcohol_proportion, beverage_type) VALUES ('Graves', 0.13, 'wine');
+
+INSERT INTO drink (id_people, id_beverage, drink_date, place, volume) VALUES (1, 2, '2020-06-01 22:00:00', 'Marie s apartment', 0.01);
+INSERT INTO drink (id_people, id_beverage, drink_date, place, volume) VALUES (2, 3, '2020-06-01 22:05:00', 'Marie s apartment', 0.15);
+INSERT INTO drink (id_people, id_beverage, drink_date, place, volume) VALUES (3, 1, '2020-06-01 22:00:00', 'Marie s apartment', 0.33);
+INSERT INTO drink (id_people, id_beverage, drink_date, place, volume) VALUES (3, 1, '2020-06-01 22:15:00', 'Marie s apartment', 0.33);
+INSERT INTO drink (id_people, id_beverage, drink_date, place, volume) VALUES (1, 3, '2020-06-15 20:00:00', 'Pierre s apartment', 0.15);
+INSERT INTO drink (id_people, id_beverage, drink_date, place, volume) VALUES (1, 1, '2020-06-30 18:00:00', 'Bar', 0.25);
+INSERT INTO drink (id_people, id_beverage, drink_date, place, volume) VALUES (2, 1, '2020-06-30 18:00:00', 'Bar', 0.5);
+INSERT INTO drink (id_people, id_beverage, drink_date, place, volume) VALUES (3, 3, '2020-06-30 18:00:00', 'Bar', 0.55);
+INSERT INTO drink (id_people, id_beverage, drink_date, place, volume) VALUES (2, 2, '2020-06-30 18:30:00', 'Bar', 0.01);
+INSERT INTO drink (id_people, id_beverage, drink_date, place, volume) VALUES (3, 2, '2020-06-30 18:30:00', 'Bar', 0.01);
+
+
+2021-07-01 18:54:56,604 - application.database_handler - DEBUG - Sample data inserted.
+2021-07-01 18:56:36,419 - application - INFO - Application started.
+2021-07-01 18:56:36,420 - application.database_handler - INFO - Initializing database.
+2021-07-01 18:56:36,420 - application.database_handler - WARNING - Existing database has been deleted.
+2021-07-01 18:56:36,421 - application.database_handler - DEBUG - Reading SQL file.
+2021-07-01 18:56:36,421 - application.database_handler - DEBUG - Executing sql script.
+2021-07-01 18:56:36,422 - application.database_handler - ERROR - Failed to execute SQL script. Script :
+
+CREATE TABLE people (
+    id INT PRIMARY KEY AUTOINCREMENT,
+    first_name TEXT,
+    last_name TEXT,
+    birthday TEXT,
+    sex TEXT,
+    mass REAL
+);
+
+CREATE TABLE beverage (
+    id INT PRIMARY KEY AUTOINCREMENT,
+    beverage_name TEXT,
+    alcohol_proportion REAL,
+    beverage_type TEXT
+);
+
+CREATE TABLE drink (
+        id INT PRIMARY KEY AUTOINCREMENT,
+        id_people INT REFERENCES people (id),
+        id_beverage INT REFERENCES beverage (id),
+        drink_date TEXT,
+        place TEXT,
+        volume REAL
+);
+
+2021-07-01 18:56:36,424 - application.database_handler - DEBUG - Empty database created.
+2021-07-01 18:56:36,425 - application.database_handler - DEBUG - Reading SQL file.
+2021-07-01 18:56:36,425 - application.database_handler - DEBUG - Executing sql script.
+2021-07-01 18:56:36,425 - application.database_handler - ERROR - Failed to execute SQL script. Script :
+
+INSERT INTO people (first_name, last_name, birthday, sex, mass) VALUES ('Pierre', '', '2000-04-01', 'male', 70);
+INSERT INTO people (first_name, last_name, birthday, sex, mass) VALUES ('Marie', '', '2000-08-01', 'female', 50);
+INSERT INTO people (first_name, last_name, birthday, sex, mass) VALUES ('Alex', '', '2000-12-01', 'male', 65);
+
+INSERT INTO beverage (beverage_name, alcohol_proportion, beverage_type) VALUES ('Goudale', 0.07, 'beer');
+INSERT INTO beverage (beverage_name, alcohol_proportion, beverage_type) VALUES ('Poliakov', 0.4, 'vodka');
+INSERT INTO beverage (beverage_name, alcohol_proportion, beverage_type) VALUES ('Graves', 0.13, 'wine');
+
+INSERT INTO drink (id_people, id_beverage, drink_date, place, volume) VALUES (1, 2, '2020-06-01 22:00:00', 'Marie s apartment', 0.01);
+INSERT INTO drink (id_people, id_beverage, drink_date, place, volume) VALUES (2, 3, '2020-06-01 22:05:00', 'Marie s apartment', 0.15);
+INSERT INTO drink (id_people, id_beverage, drink_date, place, volume) VALUES (3, 1, '2020-06-01 22:00:00', 'Marie s apartment', 0.33);
+INSERT INTO drink (id_people, id_beverage, drink_date, place, volume) VALUES (3, 1, '2020-06-01 22:15:00', 'Marie s apartment', 0.33);
+INSERT INTO drink (id_people, id_beverage, drink_date, place, volume) VALUES (1, 3, '2020-06-15 20:00:00', 'Pierre s apartment', 0.15);
+INSERT INTO drink (id_people, id_beverage, drink_date, place, volume) VALUES (1, 1, '2020-06-30 18:00:00', 'Bar', 0.25);
+INSERT INTO drink (id_people, id_beverage, drink_date, place, volume) VALUES (2, 1, '2020-06-30 18:00:00', 'Bar', 0.5);
+INSERT INTO drink (id_people, id_beverage, drink_date, place, volume) VALUES (3, 3, '2020-06-30 18:00:00', 'Bar', 0.55);
+INSERT INTO drink (id_people, id_beverage, drink_date, place, volume) VALUES (2, 2, '2020-06-30 18:30:00', 'Bar', 0.01);
+INSERT INTO drink (id_people, id_beverage, drink_date, place, volume) VALUES (3, 2, '2020-06-30 18:30:00', 'Bar', 0.01);
+
+
+2021-07-01 18:56:36,427 - application.database_handler - DEBUG - Sample data inserted.
+2021-07-01 19:01:46,102 - application - INFO - Application started.
+2021-07-01 19:01:46,103 - application.database_handler - INFO - Initializing database.
+2021-07-01 19:01:46,103 - application.database_handler - WARNING - Existing database has been deleted.
+2021-07-01 19:01:46,104 - application.database_handler - DEBUG - Reading SQL file.
+2021-07-01 19:01:46,104 - application.database_handler - DEBUG - Executing sql script.
+2021-07-01 19:01:46,142 - application.database_handler - DEBUG - Empty database created.
+2021-07-01 19:01:46,142 - application.database_handler - DEBUG - Reading SQL file.
+2021-07-01 19:01:46,142 - application.database_handler - DEBUG - Executing sql script.
+2021-07-01 19:01:46,315 - application.database_handler - DEBUG - Sample data inserted.
