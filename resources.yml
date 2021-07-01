@@ -1,0 +1,6 @@
+---
+database:
+  url: resources/database.db
+  schema: resources/database_schema.sql
+  sample_data: resources/sample_data.sql
+...
