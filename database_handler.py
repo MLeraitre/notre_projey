@@ -9,7 +9,7 @@ import yaml
 from sqlalchemy.engine.base import Connection
 from yaml.loader import SafeLoader
 
-module_logger = logging.getLogger('application.{}'.format(__name__))
+module_logger = logging.getLogger(f'application.{__name__}')
 
 with open("resources.yml") as file:
     resources = yaml.load(file, Loader=SafeLoader)

@@ -1,7 +1,8 @@
-import logging
 import argparse
-import database_handler
+import logging
 import traceback
+
+import database_handler
 
 logger = logging.getLogger('application')
 logger.setLevel(logging.DEBUG)
@@ -40,7 +41,7 @@ def main():
                 logger.error("Failed to initialize database.")
                 traceback.print_exc()
             if init_arg != "empty":
-                logger.warning("{} is not a known value for --init-database. Database left empty by default. Possible values : sample, empty.".format(init_arg))
+                logger.warning(f"{init_arg} is not a known value for --init-database. Database left empty by default. Possible values : sample, empty.")
         logging.info("Application ended.")
 
 if __name__=="__main__":

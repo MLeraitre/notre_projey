@@ -210,3 +210,10 @@ INSERT INTO drink (id_people, id_beverage, drink_date, place, volume) VALUES (3,
 2021-07-01 19:01:46,142 - application.database_handler - DEBUG - Reading SQL file.
 2021-07-01 19:01:46,142 - application.database_handler - DEBUG - Executing sql script.
 2021-07-01 19:01:46,315 - application.database_handler - DEBUG - Sample data inserted.
+2021-07-01 19:36:47,781 - application - INFO - Application started.
+2021-07-01 19:36:47,781 - application.database_handler - INFO - Initializing database.
+2021-07-01 19:36:47,782 - application.database_handler - WARNING - Existing database has been deleted.
+2021-07-01 19:36:47,782 - application.database_handler - DEBUG - Reading SQL file.
+2021-07-01 19:36:47,782 - application.database_handler - DEBUG - Executing sql script.
+2021-07-01 19:36:47,821 - application.database_handler - DEBUG - Empty database created.
+2021-07-01 19:36:47,821 - application - WARNING - banana is not a known value for --init-database. Database left empty by default. Possible values : sample, empty.
