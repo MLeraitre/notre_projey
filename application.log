@@ -1,0 +1,88 @@
+2021-07-01 02:32:04,098 - application - INFO - Application started.
+2021-07-01 02:32:04,098 - application - INFO - Inserting sample data into the database.
+2021-07-01 02:32:04,098 - application.database_handler - INFO - Initializing database.
+2021-07-01 02:32:04,099 - application.database_handler - WARNING - There is already an existing database. Initialization skipped.
+2021-07-01 02:32:04,099 - application.database_handler - DEBUG - Reading SQL file.
+2021-07-01 02:32:04,099 - application.database_handler - DEBUG - Executing sql script.
+2021-07-01 02:32:04,239 - application.database_handler - DEBUG - Sample data inserted.
+2021-07-01 02:35:04,160 - application - INFO - Application started.
+2021-07-01 02:35:04,160 - application - INFO - Inserting sample data into the database.
+2021-07-01 02:35:04,161 - application.database_handler - INFO - Initializing database.
+2021-07-01 02:35:04,161 - application.database_handler - WARNING - There is already an existing database. Initialization skipped.
+2021-07-01 02:35:04,162 - application.database_handler - DEBUG - Reading SQL file.
+2021-07-01 02:35:04,162 - application.database_handler - DEBUG - Executing sql script.
+2021-07-01 02:35:04,346 - application.database_handler - DEBUG - Sample data inserted.
+2021-07-01 02:49:45,214 - application - INFO - Application started.
+2021-07-01 02:49:45,214 - application - INFO - Inserting sample data into the database.
+2021-07-01 02:49:45,215 - application.database_handler - INFO - Initializing database.
+2021-07-01 02:49:45,215 - application.database_handler - WARNING - There is already an existing database. Initialization skipped.
+2021-07-01 02:49:45,216 - application.database_handler - DEBUG - Reading SQL file.
+2021-07-01 02:49:45,216 - application.database_handler - DEBUG - Executing sql script.
+2021-07-01 02:49:45,343 - application.database_handler - DEBUG - Sample data inserted.
+2021-07-01 02:50:36,605 - application - INFO - Application started.
+2021-07-01 02:50:36,605 - application - INFO - Inserting sample data into the database.
+2021-07-01 02:50:36,606 - application.database_handler - INFO - Initializing database.
+2021-07-01 02:50:36,606 - application.database_handler - WARNING - There is already an existing database. Initialization skipped.
+2021-07-01 02:50:36,607 - application.database_handler - DEBUG - Reading SQL file.
+2021-07-01 02:50:36,607 - application.database_handler - DEBUG - Executing sql script.
+2021-07-01 02:50:36,750 - application.database_handler - DEBUG - Sample data inserted.
+2021-07-01 02:51:37,027 - application - INFO - Application started.
+2021-07-01 02:51:37,028 - application - INFO - Inserting sample data into the database.
+2021-07-01 02:51:37,028 - application.database_handler - INFO - Initializing database.
+2021-07-01 02:51:37,029 - application.database_handler - WARNING - There is already an existing database. Database creation skipped.
+2021-07-01 02:51:37,029 - application.database_handler - DEBUG - Reading SQL file.
+2021-07-01 02:51:37,029 - application.database_handler - DEBUG - Executing sql script.
+2021-07-01 02:51:37,169 - application.database_handler - DEBUG - Sample data inserted.
+2021-07-01 02:51:51,775 - application - INFO - Application started.
+2021-07-01 02:51:51,776 - application - INFO - Inserting sample data into the database.
+2021-07-01 02:51:51,782 - application.database_handler - INFO - Initializing database.
+2021-07-01 02:51:51,783 - application.database_handler - WARNING - There is already an existing database. Database creation skipped.
+2021-07-01 02:51:51,783 - application.database_handler - DEBUG - Reading SQL file.
+2021-07-01 02:51:51,783 - application.database_handler - DEBUG - Executing sql script.
+2021-07-01 02:51:51,931 - application.database_handler - DEBUG - Sample data inserted.
+2021-07-01 02:51:59,318 - application - INFO - Application started.
+2021-07-01 02:51:59,318 - application - INFO - Inserting sample data into the database.
+2021-07-01 02:51:59,319 - application.database_handler - INFO - Initializing database.
+2021-07-01 02:51:59,319 - application.database_handler - WARNING - There is already an existing database. Database creation skipped.
+2021-07-01 02:51:59,320 - application.database_handler - DEBUG - Reading SQL file.
+2021-07-01 02:51:59,320 - application.database_handler - DEBUG - Executing sql script.
+2021-07-01 02:51:59,472 - application.database_handler - DEBUG - Sample data inserted.
+2021-07-01 02:52:07,463 - application - INFO - Application started.
+2021-07-01 02:52:07,464 - application - INFO - Inserting sample data into the database.
+2021-07-01 02:52:07,464 - application.database_handler - INFO - Initializing database.
+2021-07-01 02:52:07,465 - application.database_handler - DEBUG - Reading SQL file.
+2021-07-01 02:52:07,465 - application.database_handler - DEBUG - Executing sql script.
+2021-07-01 02:52:07,493 - application.database_handler - DEBUG - Empty database created.
+2021-07-01 02:52:07,493 - application.database_handler - DEBUG - Reading SQL file.
+2021-07-01 02:52:07,493 - application.database_handler - DEBUG - Executing sql script.
+2021-07-01 02:52:07,617 - application.database_handler - DEBUG - Sample data inserted.
+2021-07-01 09:17:50,518 - application - INFO - Application started.
+2021-07-01 09:18:15,120 - application - INFO - Application started.
+2021-07-01 09:18:52,808 - application - INFO - Application started.
+2021-07-01 09:19:03,986 - application - INFO - Application started.
+2021-07-01 09:19:22,716 - application - INFO - Application started.
+2021-07-01 09:19:22,716 - application.database_handler - INFO - Initializing database.
+2021-07-01 09:19:22,717 - application.database_handler - DEBUG - Reading SQL file.
+2021-07-01 09:19:22,725 - application.database_handler - DEBUG - Executing sql script.
+2021-07-01 09:19:22,757 - application.database_handler - DEBUG - Empty database created.
+2021-07-01 09:19:22,757 - application.database_handler - DEBUG - Reading SQL file.
+2021-07-01 09:19:22,763 - application.database_handler - DEBUG - Executing sql script.
+2021-07-01 09:19:22,887 - application.database_handler - DEBUG - Sample data inserted.
+2021-07-01 09:19:48,211 - application - INFO - Application started.
+2021-07-01 09:19:48,211 - application.database_handler - INFO - Initializing database.
+2021-07-01 09:19:48,212 - application.database_handler - WARNING - Existing database has been deleted.
+2021-07-01 09:19:48,213 - application.database_handler - DEBUG - Reading SQL file.
+2021-07-01 09:19:48,213 - application.database_handler - DEBUG - Executing sql script.
+2021-07-01 09:19:48,244 - application.database_handler - DEBUG - Empty database created.
+2021-07-01 09:19:48,244 - application.database_handler - DEBUG - Reading SQL file.
+2021-07-01 09:19:48,245 - application.database_handler - DEBUG - Executing sql script.
+2021-07-01 09:19:48,371 - application.database_handler - DEBUG - Sample data inserted.
+2021-07-01 12:19:38,100 - application - INFO - Application started.
+2021-07-01 12:19:38,100 - application.database_handler - INFO - Initializing database.
+2021-07-01 12:19:38,101 - application.database_handler - WARNING - Existing database has been deleted.
+2021-07-01 12:19:38,102 - application.database_handler - DEBUG - Reading SQL file.
+2021-07-01 12:19:38,102 - application.database_handler - DEBUG - Executing sql script.
+2021-07-01 12:19:38,144 - application.database_handler - DEBUG - Empty database created.
+2021-07-01 12:19:38,144 - application.database_handler - DEBUG - Reading SQL file.
+2021-07-01 12:19:38,145 - application.database_handler - DEBUG - Executing sql script.
+2021-07-01 12:19:38,328 - application.database_handler - DEBUG - Sample data inserted.
